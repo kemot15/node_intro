@@ -10,7 +10,7 @@ app.use('/assets',express.static(path.join(__dirname, "./assets")));
 app.use('/js',express.static(path.join(__dirname, "./js")));
 app.get("/", function (req,res){
     res.render("index", {
-        title: 'zajecia 0123',
+        title: 'Node JS',
         subTitle: functions.subTitle
             
         
